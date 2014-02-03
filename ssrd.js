@@ -1,45 +1,49 @@
-var redis = require( "redis" );
+/*:
+	@include:
+		{
+			"redis": "redis"
+		}
+	@end-include
 
-/*
-	ssrd
+	@module-documentation:
+		ssrd
 		"squared" or save, sync, read and delete, the basic
 			operations for manipulating redis data storage.
-
+	@end-module-documentation
 */
 
-
-var saveData = function saveData( ){
-
-};
-
-var syncData = function syncData( ){
+saveData = function saveData( ){
 
 };
 
-var readData = function readData( ){
+syncData = function syncData( ){
 
 };
 
-var deleteData = function deleteData( ){
+readData = function readData( ){
 
 };
 
-var checkData = function checkData( ){
+deleteData = function deleteData( ){
 
 };
 
-var saveMultipleData = function saveMultipleData( ){
+checkData = function checkData( ){
 
 };
 
-var syncMultipleData = function syncMultipleData( ){
+saveMultipleData = function saveMultipleData( ){
 
 };
 
-var readMultipleData = function readMultipleData( ){
+syncMultipleData = function syncMultipleData( ){
 
 };
 
-var deleteMultipleData = function deleteMultipleData( ){
+readMultipleData = function readMultipleData( ){
+
+};
+
+deleteMultipleData = function deleteMultipleData( ){
 
 };
