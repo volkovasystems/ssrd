@@ -1,4 +1,2 @@
-ssrd
-====
-
-Simple data storage operation
+# ssrd
+Interface factory for simple data storage creation and connection.
